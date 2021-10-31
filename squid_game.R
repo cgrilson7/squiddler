@@ -22,8 +22,8 @@ sim <- function(n_tiles = 18,
   # they will know the actual sequence of tiles,
   # but will be placed randomly in the order of players guessing
   if (player_017) {
-    player_017_number <- sample(n_players, 1)
-    tiles_guessed[player_017_number, ] <- tiles_actual
+    player_017_index <- sample(n_players, 1)
+    tiles_guessed[player_017_index, ] <- tiles_actual
   }
   
   # iterate down, from i = player 1 to the last player
