@@ -49,7 +49,7 @@ Below are the results of my simulation with, and without, the help of this playe
 load('sim_results.Rdata')
 ```
 
-### Probabilities that **x** players survive:
+### Probabilities that *x* players survive:
 
 ```{r plot-1, echo = FALSE, fig.width=10, fig.height = 6, fig.alt = "Overlapping frequency distributions of the number of survivors in this simulation, where one group has the advantage of having the glassmaker with them. This shows that on average, 7 players will survive without him, and around 10 will survive with his help."}
 # plot 1: probabilities of x survivors ------------------------------------
@@ -196,7 +196,7 @@ results %>%
   )
 ```
 
-### Cumulative probability that at least **x** survive:
+### Cumulative probability that at least *x* survive:
 
 ```{r plot-2, fig.width=10, fig.height = 6, fig.alt = "Line chart of the cumulative probability distribution of survivors in the two groups, where one group has the advantage of having the glassmaker with them. This shows that with a glassmaker, there is a 50.5% chance that 10 or more players survive - but that without him, only an 11.9% chance."}
 # plot 2: cumulative probabilities (at least x survivors) ----------------------------------------

@@ -27,10 +27,10 @@ random.
 Below are the results of my simulation with, and without, the help of
 this player.
 
-### Probabilities that **x** players survive:
+### Probabilities that *x* players survive:
 
 <img src="README_files/figure-gfm/plot-1-1.png" title="Overlapping frequency distributions of the number of survivors in this simulation, where one group has the advantage of having the glassmaker with them. This shows that on average, 7 players will survive without him, and around 10 will survive with his help." alt="Overlapping frequency distributions of the number of survivors in this simulation, where one group has the advantage of having the glassmaker with them. This shows that on average, 7 players will survive without him, and around 10 will survive with his help."  />
 
-### Cumulative probability that at least **x** survive:
+### Cumulative probability that at least *x* survive:
 
 <img src="README_files/figure-gfm/plot-2-1.png" title="Line chart of the cumulative probability distribution of survivors in the two groups, where one group has the advantage of having the glassmaker with them. This shows that with a glassmaker, there is a 50.5% chance that 10 or more players survive - but that without him, only an 11.9% chance." alt="Line chart of the cumulative probability distribution of survivors in the two groups, where one group has the advantage of having the glassmaker with them. This shows that with a glassmaker, there is a 50.5% chance that 10 or more players survive - but that without him, only an 11.9% chance."  />
